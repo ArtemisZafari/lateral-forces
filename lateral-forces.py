@@ -136,7 +136,7 @@ class Wind:
         # Here we check our manually entered combinations of roof pitch and wind speed
         # in order to find the of A, B, C, and D values
         if 25 <= self.roof_pitch < 30 and self.wind_speed == 110:
-            factors = [21.6, 14.8, 17.2, 11.8]ds_1
+            factors = [21.6, 14.8, 17.2, 11.8]
 
         elif 20 <= self.roof_pitch < 25 and self.wind_speed == 110:
             factors = [24.1, 3.9, 17.4, 4]
